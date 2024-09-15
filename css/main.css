@@ -1,0 +1,355 @@
+header {
+    box-sizing: border-box;
+    max-width: 60%;
+    margin: auto;
+    background-color: rgb(153, 153, 153);
+    border-radius: 10px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+section {
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+section article {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section article h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de esportes */
+
+section.esportes {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+    scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+
+section.esportes h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section.esportes section h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+section.esportes a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.esportes img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section.esportes p {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+/* Seção de economia */
+
+section.economia {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+    scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+
+section.economia h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section.economia section h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+section.economia a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.economia img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section.economia p {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+/* Seção de entretenimento */
+
+section.entretenimento {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+    scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+
+section.entretenimento h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section.entretenimento section h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+section.entretenimento a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.entretenimento img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section.entretenimento p {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+/* Seção de tecnologia */
+
+section.tecnologia {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+    scrollbar-track-color: rgba(0, 0, 0, 0.1);
+}
+
+section.tecnologia h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section.tecnologia section h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+section.tecnologia a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.tecnologia img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section.tecnologia p {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
