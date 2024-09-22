@@ -144,7 +144,7 @@ section.esportes p {
 /* Seção de economia */
 
 section.economia {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(255, 0, 0);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -215,7 +215,7 @@ section.economia p {
 /* Seção de entretenimento */
 
 section.entretenimento {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(34, 0, 255);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -286,7 +286,7 @@ section.entretenimento p {
 /* Seção de tecnologia */
 
 section.tecnologia {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(0, 255, 38);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
